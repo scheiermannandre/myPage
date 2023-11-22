@@ -1,14 +1,17 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appId": "$TEAM_ID.com.firebase.UniversalLinks",
-        "paths": [
-          "NOT /_/*",
-          "/*"
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "UK8VJ5JDSZ.com.andrescheiermann.mytime"
+                ],
+                "components": [
+                    {
+                        "/": "/authHandler"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    }
 }

@@ -1,9 +1,14 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.example.android",
-      "sha256_cert_fingerprints":
-        ["01:23:45:67:89:AB:CD:EF:01:23:45:67:89:AB:CD:EF:01:23:45:67:89:AB:CD:EF:01:23:45:67:89:AB:CD:EF"]
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.andrescheiermann.mytime",
+            "sha256_cert_fingerprints": [
+                "DA:60:06:5E:70:11:0B:B4:1F:F6:46:36:8E:D8:1B:6B:E1:99:0A:5F:9B:C5:E5:4C:9F:F5:04:E4:70:2F:7D:79"
+            ]
+        }
     }
-  }]
+]
